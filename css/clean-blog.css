@@ -44,12 +44,29 @@ img {
   background-size: cover;
 }
 
+#roots {
+  background: url(../img/ankle.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#deeper {
+  background: url("../img/mirror.jpg") 99% center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: inherit;
+}
+
 #about {
   background: url(../img/abt2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 #tree {
