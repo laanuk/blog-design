@@ -45,28 +45,19 @@ img {
 }
 
 #roots {
-  background: url(../img/ankle.jpg) no-repeat center center fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/ankle.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#deeper {
-  background: url("../img/mirror.jpg") 99% center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: inherit;
 }
 
 #about {
-  background: url(../img/abt2.jpg) no-repeat center center fixed;
+  background: url(../img/abt2.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 100% 100%;
+  background-size: contain;
 }
 
 #tree {
@@ -74,10 +65,6 @@ img {
   height: 100%;
   display: block;
   position: relative;
-}
-
-#box-girl {
-  height: 420px
 }
 
 #tree::after {
@@ -94,6 +81,20 @@ img {
   right: 0;
   position: absolute;
   z-index: -1;
+}
+
+#deeper {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/mirror.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: inherit;
+  background-position: 70px;
+}
+
+#box-girl {
+  height: 420px
 }
 
 #myCarousel {
