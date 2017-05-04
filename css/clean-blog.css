@@ -53,11 +53,11 @@ img {
 }
 
 #about {
-  background: url(../img/abt2.jpg);
+  background: url(../img/abt2.jpg) no-repeat center right, url(../img/abt2.jpg) no-repeat center left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
+  background-size: 300px 100%;
 }
 
 #tree {
